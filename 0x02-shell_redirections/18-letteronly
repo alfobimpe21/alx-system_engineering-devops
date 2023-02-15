@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -i "n*" /etc/passwd/sshd_config
+grep 'A-Zaa-z]' /etc/ssh/sshd_config
