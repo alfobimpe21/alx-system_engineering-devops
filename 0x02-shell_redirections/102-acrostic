@@ -1,0 +1,5 @@
+#!/bin/bash
+while read -r line; do
+    printf "${line:0:1}"
+done < "$1"
+printf "\n"
